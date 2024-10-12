@@ -12,7 +12,7 @@ namespace MyFirstBoplPlugin
         
     {
 
-        private void Awake() => Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!"); GameObject uiTextObject = new GameObject("MyText");
+        private void Awake() => Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
 
         private void Update()
         {
